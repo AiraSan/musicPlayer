@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="shortcut icon" href="img/1.jpg" type="image/x-icon">
+</head>
+<body>
+    <section>
+        <div class="container">
+
+            <div class="nav">
+                <p><span id="current"></span>/<span id="count"></span></p>
+                <i class="fas fa-bars" id="menu"></i>
+            </div>
+
+            <ul id="nav-list">
+                <!-- <li>
+                    <div>
+                        <h3>Music Title 1</h3>
+                        <p>Singer</p>
+                    </div>
+                    <i class="fas fa-play" id="playSingle"></i>
+                </li> -->
+                
+            </ul>
+
+            <h3 id="title">Music Title 3</h3>
+
+            <p id="singer">Artist</p>
+
+            <img src="img/1.png" alt="" id="poster">
+
+            <div class="btn-container">
+                <i class="fas fa-caret-left"  id="prev"></i>
+                <i class="fas fa-play" id="play"></i>
+                <i class="fas fa-caret-right" id="next"></i>
+            </div>
+
+            <div class="track-time">
+                <p id="currentTime"></p>
+                <p id="durationTime"></p>
+              </div>
+
+            <input type="range" id="range" min="0" max="100">
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
